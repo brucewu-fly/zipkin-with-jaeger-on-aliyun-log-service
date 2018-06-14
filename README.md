@@ -13,6 +13,7 @@
 
 ## 集成原理
 Jaeger on Aliyun Log Service 是基于 Jeager 开发的分布式追踪系统，支持将采集到的追踪数据持久化到日志服务中，并通过 Jaeger 的原生接口进行查询和展示。
+
 Jaeger on Aliyun Log Service 包含 Agent、Collector 和 Query 等组件。其中 Collector 和 Zipkin 做了兼容，它暴露的`9411`端口可以接收 Zipkin libraries 发送过来的数据。
 
 ## 集成步骤
