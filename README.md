@@ -8,7 +8,7 @@
   * [日志服务](#日志服务)
   * [启动 Jaeger on Aliyun Log Service](#启动-Jaeger-on-Aliyun-Log-Service)
   * [采集](#采集)
-  * [访问 Jaeger UI](#访问-Jaeger-UI)
+  * [Jaeger UI](#Jaeger-UI)
 * [参考资料](#参考资料)
 
 ## 集成原理
