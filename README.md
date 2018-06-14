@@ -6,7 +6,7 @@
 * [集成步骤](#集成步骤)
 * [集成详细步骤](#集成详细步骤)
   * [日志服务](#日志服务)
-  * [启动 Jaeger on Aliyun Log Service](#启动-Jaeger-on-Aliyun-Log-Service)
+  * [启动 Jaeger on Aliyun Log Service](#启动-jaeger-on-aliyun-log-service)
   * [采集](#采集)
   * [Jaeger UI](#jaeger-ui)
 * [参考资料](#参考资料)
@@ -36,7 +36,7 @@ docker-compose -f aliyunlog-jaeger-docker-compose.yml up
 ### 采集
 以 OpenZipkin Java libraries [brave](https://github.com/openzipkin/brave/tree/master/spring-beans) 为例，配置 endpoint 将数据发往 jaeger-collector。
 
-### 访问 Jaeger UI
+### Jaeger UI
 http://localhost:16686/search
 
 # 参考资料
